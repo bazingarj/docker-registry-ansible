@@ -1,0 +1,8 @@
+---
+# defaults file for docker-registry
+
+user: docker
+group: docker
+
+registry_path: /opt/docker-registry
+registry_data: /opt/docker-registry/data

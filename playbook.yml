@@ -1,0 +1,6 @@
+---
+
+- name: Setup docker-registry
+  hosts: docker-registry
+  roles:
+    - role: docker-registry
